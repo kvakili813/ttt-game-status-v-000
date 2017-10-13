@@ -44,6 +44,6 @@ end
 def winner(board)
   won = won?(board)
 if won
-  combinations[0]
+  won[0].board
 end
 end
